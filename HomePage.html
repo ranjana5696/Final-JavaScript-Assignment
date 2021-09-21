@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="./HomePage.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--   mandatory links to be included in head tag -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="head">
+        <div id="LogoDiv">
+        <a id="Logo" href="./HomePage.html"><span class="Logo1">SHOP</span><span class="Logo2">LANE</span></a>
+        <a href="#Clothing"><span class="headerText">CLOTHING</span></a>
+        <a href="#Accessories"><span class="headerText">ACCESSORIES</span></a>
+        </div>
+          <div id="Search">
+              <i class="fas fa-search SearchIcon"></i>
+              <input class="SeachText" type="text" placeholder="Search for Clothing and Accessories"/>
+          </div>
+        <div id="CartProfile">
+            <a href="./Checkout.html">
+                <div id="CartIcon">
+                    <i class="fas fa-shopping-cart "></i>
+                    <span class="CartNum">0</span>
+                </div>
+            </a>
+            <img src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-File.png" alt="ProfileImage" class="ProfilePhoto">
+        </div>
+    </header>
+
+    <main>
+        <section id="banner-wrapper">
+            <div id="owl-carousel" class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="https://shoplane.netlify.app/img/img1.png" />
+              </div>
+              <div class="item">
+                <img src="https://shoplane.netlify.app/img/img2.png" />
+              </div>
+              <div class="item">
+                <img src="https://shoplane.netlify.app/img/img3.png" />
+              </div>
+              <div class="item">
+                <img src="https://shoplane.netlify.app/img/img4.png" />
+              </div>
+            </div>
+          </section>
+
+        <section class="homepage" >
+            <h2 class="section-heading" id="Clothing" > Clothing for Men and Women </h2>
+            <div id="clothing-section" class="each-item">
+             </div>
+            </div>
+            </section>
+            
+            <section class="homepage" >
+            <h2 class="section-heading" id="Accessories"> Accessories for Men and Women </h2>
+            <div id="accessories-section" class="each-item" ></div>
+            </section>
+    </main>
+
+    <footer>
+        <div class="FooterDiv1">
+            <h2>ONLINE STORE</h2>
+            <a href="./HomePage.html"><p>Men Clothing</p></a>
+            <a href="./HomePage.html"><p>Women Clothing</p></a>
+            <a href="./HomePage.html"><p>Men Accessories</p></a>
+            <a href="./HomePage.html"><p>Women Accessories</p></a>
+        </div>
+        <div class="FooterDiv1">
+            <h2>HELPFUL LINKS</h2>
+            <a href="./HomePage.html"><p>Home</p></a>
+            <a href="./HomePage.html"><p>About</p></a>
+            <a href="./HomePage.html"><p>Contact</p></a>
+        </div>
+        <div class="FooterDiv1">
+            <h2>PARTNERS</h2>
+            <a href="./HomePage.html"><p>Zara</p></a>
+            <a href="./HomePage.html"><p>Pantaloons</p></a>
+            <a href="./HomePage.html"><p>Levis</p></a>
+            <a href="./HomePage.html"><p>UCB</p></a>
+            <a href="./HomePage.html"><p>+ Many More</p></a>
+        </div>
+        <div class="FooterDiv1">
+            <h2>ADDRESS</h2>
+            <p>Building 101</p>
+            <p>Central Avenue</p>
+            <p>LA - 902722</p>
+            <p>UCB</p>
+            <p>United States</p>
+        </div>
+    </footer>
+    <script src="./HomePage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

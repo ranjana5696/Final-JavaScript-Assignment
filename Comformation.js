@@ -1,0 +1,1 @@
+localStorage.setItem("Cart", 0)
